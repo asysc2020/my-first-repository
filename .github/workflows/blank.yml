@@ -1,7 +1,4 @@
-- name: shellcheck
-  uses: ludeeus/action-shellcheck@0.1.0
 # This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
@@ -33,7 +30,3 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        - name: shellcheck
-  uses: ludeeus/action-shellcheck@0.1.0
-        - name: Pocket_Lint
-  uses: PatMyron/pocket-lint@0.1
